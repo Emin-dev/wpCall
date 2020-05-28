@@ -11,7 +11,7 @@ li {
 }
 
 ul {
-  height: 95%;
+  height: 90%;
   overflow: auto;
 }
 ul::-webkit-scrollbar {
@@ -39,9 +39,9 @@ ul {
   text-decoration: none;
   list-style-type: none;
 }
-
-.fromMe {
-  justify-content: flex-end;
+img{
+  width: 20%;
+  
 }
 
 h6 {
@@ -49,22 +49,17 @@ h6 {
   padding: 8px 15px;
   margin: 5px;
   border-radius: 20px;
-  background: rgb(211, 211, 211);
   height: auto;
-  max-width: 50%;
-
-  color: rgb(46, 46, 46);
+  min-width: 80%;
   display: inline-block;
+  color: black;
 }
-.fromYou {
-  background: #128cff;
-  color: white;
-}
+
 
 .box {
   border: #006bcf solid 0.5px;
   border-radius: 20px;
-  height: 500px;
+  height: 700px;
 }
 
 button {

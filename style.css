@@ -16,7 +16,7 @@ li {
 }
 
 ul {
-  height: 95%;
+  height: 90%;
   overflow: auto;
 }
 
@@ -47,10 +47,8 @@ ul {
   list-style-type: none;
 }
 
-.fromMe {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+img {
+  width: 20%;
 }
 
 h6 {
@@ -58,22 +56,16 @@ h6 {
   padding: 8px 15px;
   margin: 5px;
   border-radius: 20px;
-  background: lightgray;
   height: auto;
-  max-width: 50%;
-  color: #2e2e2e;
+  min-width: 80%;
   display: inline-block;
-}
-
-.fromYou {
-  background: #128cff;
-  color: white;
+  color: black;
 }
 
 .box {
   border: #006bcf solid 0.5px;
   border-radius: 20px;
-  height: 500px;
+  height: 700px;
 }
 
 button {
