@@ -1,0 +1,93 @@
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul {
+  height: 95%;
+  overflow: auto;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+input {
+  padding: 5px 10px;
+  margin: 15px;
+  border-radius: 10px;
+  background: #128cff;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+li,
+ul {
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.fromMe {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+h6 {
+  word-wrap: break-word;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  background: lightgray;
+  height: auto;
+  max-width: 50%;
+  color: #2e2e2e;
+  display: inline-block;
+}
+
+.fromYou {
+  background: #128cff;
+  color: white;
+}
+
+.box {
+  border: #006bcf solid 0.5px;
+  border-radius: 20px;
+  height: 500px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 15px;
+  border-radius: 10px;
+  background: #0084ff;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
